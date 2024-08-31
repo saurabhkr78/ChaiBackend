@@ -53,7 +53,7 @@ app.get("/github", (req, res) => {
     res.json(githubData);
   });
 
-
+//to access .env file
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${port}`);
 });
